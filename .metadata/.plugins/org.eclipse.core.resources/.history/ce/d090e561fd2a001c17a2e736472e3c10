@@ -1,0 +1,14 @@
+package com.jdbc.dao;
+
+import java.util.List;
+
+import com.jdbc.vo.SelectVo;
+
+public class SelectDao {
+	public static List<SelectVo> getSelect() {
+		List<SelectVo> selectVos = null;
+		
+		
+		return selectVos;
+	}
+}

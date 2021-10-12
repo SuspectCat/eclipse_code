@@ -1,0 +1,27 @@
+package com.jdbc.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.List;
+
+import com.jdbc.utils.DatabaseConnection;
+import com.jdbc.vo.SelectVo;
+
+public class SelectDao {
+	public static List<SelectVo> getSelect(String databaseName, String userName, String password) {
+		List<SelectVo> selectVos = null;
+		Connection connection = null;
+		Statement statement = null;
+		ResultSet resultSet = null;
+		
+		try {
+			connection = DatabaseConnection.getConnection(databaseName, userName, password);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return selectVos;
+	}
+}

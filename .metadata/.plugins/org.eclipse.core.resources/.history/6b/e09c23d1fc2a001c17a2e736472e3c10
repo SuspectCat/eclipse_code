@@ -1,0 +1,5 @@
+package com.jdbc.vo;
+
+public class SelectVo {
+
+}

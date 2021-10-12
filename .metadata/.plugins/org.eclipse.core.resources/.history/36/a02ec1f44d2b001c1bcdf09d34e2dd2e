@@ -1,0 +1,13 @@
+package com.dao.impl;
+
+import com.dao.IUserDao;
+
+public class UserDaoImpl implements IUserDao {
+
+	@Override
+	public boolean findUserByUserName(String userName, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.entity;
+
+public class User {
+	private Integer userId;
+	private String username;
+	private String userpwd;
+	public String getUserpwd() {
+		return userpwd;
+	}
+	public void setUserpwd(String userpwd) {
+		this.userpwd = userpwd;
+	}
+}

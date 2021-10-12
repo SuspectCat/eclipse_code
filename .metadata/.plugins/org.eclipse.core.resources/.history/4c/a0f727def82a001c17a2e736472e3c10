@@ -1,0 +1,21 @@
+package com.jdbc.utils;
+
+import java.sql.Connection;
+
+public class DatabaseConnection {
+	static {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public static Connection getConnection(String databaseName, String userName, String password) {
+		Connection connection = null;
+		
+		
+		return connection;
+	}
+}

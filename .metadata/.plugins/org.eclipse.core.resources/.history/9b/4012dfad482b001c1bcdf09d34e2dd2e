@@ -1,0 +1,11 @@
+package com.util;
+
+import java.util.Properties;
+
+public class DatabaseConnection {
+	private static Properties databaseProperties = new Properties();
+	
+	static {
+		ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
+	}
+}

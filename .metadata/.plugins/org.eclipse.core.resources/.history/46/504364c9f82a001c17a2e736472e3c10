@@ -1,0 +1,12 @@
+package com.jdbc.utils;
+
+public class DatabaseConnection {
+	static {
+		try {
+			Class.forName("");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

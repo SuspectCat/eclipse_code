@@ -1,0 +1,12 @@
+package com.jdbc.vo;
+
+public class SelectVo {
+	private Integer stuId;
+	private String stuName;
+	private String stuGender;
+	private Integer chinese;
+	private Integer foreign;
+	private Integer heart;
+	private Integer java;
+	private Integer physics;
+}

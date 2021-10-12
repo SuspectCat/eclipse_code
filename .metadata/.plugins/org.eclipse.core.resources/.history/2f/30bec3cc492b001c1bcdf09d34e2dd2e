@@ -1,0 +1,4 @@
+DriverPath=com.mysql.jdbc.Driver
+DatabaseName=jdbc:mysql://localhost:3306/
+username=root
+passpwd=rootroot

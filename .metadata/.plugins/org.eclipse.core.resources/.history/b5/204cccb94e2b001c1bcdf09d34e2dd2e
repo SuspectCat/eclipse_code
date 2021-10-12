@@ -1,0 +1,5 @@
+package com.dao;
+
+public interface IUserDao {
+	boolean findUserByUserName(String userName, String password);
+}
